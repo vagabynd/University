@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/evgen/Downloads/first/list.cpp
+stdio.h
+-
+stdlib.h
+-
+
+/Users/evgen/Downloads/first/list.h
+
+/Users/evgen/Downloads/first/main.cpp
+list.h
+/Users/evgen/Downloads/first/list.h
+stdio.h
+-
+
